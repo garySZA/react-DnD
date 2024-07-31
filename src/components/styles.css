@@ -1,0 +1,15 @@
+[data-dragging="true"] {
+    background-color: lightgreen;
+}
+
+[data-dragging='false'] {
+    background-color: white;
+}
+
+[data-dropping='true']{
+    background-color: lightblue;
+}
+
+[data-dropping='false']{
+    background-color: white;
+}

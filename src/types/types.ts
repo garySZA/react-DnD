@@ -1,11 +1,11 @@
-export type TTaskId = `task-${number}`;
+export type TTaskId = string;
 
 export type TTask = {
     id: TTaskId;
     content: string;
 }
 
-export type TColumnId = `column-${number}`;
+export type TColumnId = string;
 
 export type TColumn = {
     id: TColumnId;
